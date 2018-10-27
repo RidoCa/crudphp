@@ -24,8 +24,9 @@ if ($perintah == TRUE) {
 
 $perintah = $_mysqli->query("SELECT * FROM 1731710047_jenis_pakaian WHERE id_jenis_pakaian='6'");
 $hasil = $perintah->fetch_assoc();
-echo "Setelah Di ubah <br>";
+echo "Setelah Di ubah Lho <br>";
 echo "id_jenis_pakaian :".$hasil["id_jenis_pakaian"]."<br>";
 echo "jenis_pakaian : ".$hasil["jenis_pakaian"]."<br>";
 $_mysqli->close();
 ?>
+
